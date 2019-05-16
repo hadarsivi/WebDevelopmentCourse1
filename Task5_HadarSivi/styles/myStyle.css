@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&subset=hebrew');
+body 
+{
+    direction:rtl;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+body {
+    text-align: center;
+    background-color: aquamarine;
+    font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.info {
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.one {
+    font-size:20px;
+    font-family: 'Rubik', sans-serif;
+}
+
+label {
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.link {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+
+a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: solid 3px #008285;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Rubik', sans-serif;
+}
+
+a:hover, a:active {
+    background-color: #008285;
+    color: white;
+}
+
+input[type=submit] {
+    background-color: #008285;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+}
+
+.one {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+img {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 630px;
+}
